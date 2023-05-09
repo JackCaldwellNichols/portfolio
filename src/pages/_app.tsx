@@ -1,13 +1,14 @@
 import "@/scss/globals.css";
 import "@/scss/index.scss";
 import type { AppProps } from "next/app";
-import { Raleway, Fira_Code } from "next/font/google";
+import {Raleway, Fira_Code, Roboto} from 'next/font/google'
 
 const raleway = Raleway({ subsets: ["latin"] });
 const firaCode = Fira_Code({
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
+const roboto = Roboto({subsets: ['latin'], weight:['300', '400', '500', '700']})
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
         :root {
           --raleway: ${raleway.style.fontFamily};
           --fira-code: ${firaCode.style.fontFamily};
+          --roboto: ${roboto.style.fontFamily}
         }
       `}</style>
       <Component {...pageProps} />;

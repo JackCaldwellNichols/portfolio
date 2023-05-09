@@ -18,6 +18,9 @@
   }
   &-title-sub {
     color: var(--lightest-slate);
+    font-family: var(--roboto);
+    font-size: var(--tx2large);
+    letter-spacing: 1px;
   }
   &-text {
     color: var(--slate);

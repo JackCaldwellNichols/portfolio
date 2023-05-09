@@ -7,65 +7,65 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
-      projectName: "Pokedex",
+      image: "/image1.png",
+      projectName: "The Solar System in 3D",
       projectLink: "https://netlify.com",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "This is an educative web application that allows a user to explore our solar system in three dimensions. There are is also information on each planet within the Solar System, and the use has the ability to take a tour and learn a thing or two!",
       projectTech: [
-        "React",
-        "Redux Toolkit",
+        "React/Vite",
+        "React Three Fiber",
+        "React Three Drei",
+        "Javascript",
         "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
+        "MaterialUi",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/JackCaldwellNichols/3D-solar-system",
+        externalLink: "https://sage-otter-e5ba16.netlify.app/",
       },
     },
     {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
+      image: "/image3.png",
+      projectName: "Films4Geeks",
       projectLink: "https://netlify.com",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+        "The final project in my bootcamp programme with the coding academy 4GeeksAcademy, we created, using user-stories to formulate our ideas, a full-stack interactive movie application. The applicaiton allows a user to have a user-profile where they can see/save their favourite movies, as well as search for movies, leave comments, watch trailers, and more...",
       projectTech: [
         "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Styled Components",
+        "Javascript",
+        "Python",
+        "Flask",
+        "RestAPI",
+        "CSS",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/MireyaCR/Film4Geeks/tree/dev",
+        externalLink: "https://sample-service-name-fa9s.onrender.com/",
       },
     },
     {
-      image: "/project3.png",
-      projectName: "Netflix App",
+      image: "/image2.png",
+      projectName: "The Wave Box",
       projectLink: "https://netlify.com",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "A fully responsive landing page for a crossfit / training centre based in Madrid, The Wave Box. The page offers a user information on the location, prices, images of the centre, and a contact section for more information.",
       projectTech: [
-        "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
+        "React/Vite",
+        "Javascript",
+        "Ant Design",
+        "MaterialUI",
+        "SCSS",
+        "Bootstrap"
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/JackCaldwellNichols/the-wave-page",
+        externalLink: "https://644aa5a0c8e84203eb2b0dbd--candid-meringue-ef185c.netlify.app/#",
       },
     },
   ];
   return (
-    <div className="projects" id="work">
+    <div className="projects" id="experience">
       <motion.div
         className="title"
         initial="hidden"

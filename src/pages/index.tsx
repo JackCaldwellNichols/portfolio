@@ -10,6 +10,7 @@ import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Projects from "@/sections/Projects";
 import Experience from "@/sections/Experience";
+import Videos from "@/sections/Videos";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,8 +24,8 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Kishan Sheth</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Jack Caldwell-Nichols</title>
+        <link rel="shortcut icon" href="/logo.png" />
       </Head>
       {showContent && (
         <>
@@ -34,8 +35,8 @@ function Index() {
           <main>
             <Hero />
             <About />
-            <Experience />
             <Projects />
+            <Videos />
             <Contact />
           </main>
           <Footer />

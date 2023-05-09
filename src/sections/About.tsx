@@ -2,6 +2,24 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { useInView, motion } from "framer-motion";
+import {
+  TbBrandJavascript,
+  TbBrandReact,
+  TbBrandPython,
+  TbBrandCss3,
+  TbBrandTypescript,
+  TbBrandNextjs,
+  TbBrandMongodb
+} from 'react-icons/tb'
+
+import { 
+  SiFlask,
+
+} from 'react-icons/si'
+
+import {
+  FaNodeJs
+} from 'react-icons/fa'
 
 function About() {
   const ref = useRef(null);
@@ -27,57 +45,70 @@ function About() {
       </div>
       <div className="about-grid">
         <div className="about-grid-info">
-          <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
-          </p>
-          <p className="about-grid-info-text">
-            Fast-forward to today, I specialize in designing and developing
-            high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops.
-            </Link>
-          </p>
-
-          <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
-          </p>
-          <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
-            </Link>
-            &nbsp;aimed at enhancing frontend development skills.
-          </p>
-          <p className="about-grid-info-text">
-            Here are a few technologies I’ve been working with recently:
-          </p>
-          <ul className="about-grid-info-list">
-            <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">React Native</li>
-            <li className="about-grid-info-list-item">Next.js</li>
-            <li className="about-grid-info-list-item">Typescript</li>
-            <li className="about-grid-info-list-item">Redux Toolkit</li>
-            <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
-            <li className="about-grid-info-list-item">CSS</li>
-          </ul>
+        <p className="about-grid-info-text">
+                Hi there! My name is Jack, and I am passionate about creating
+                digital content for the web. My interest in web development was
+                sparked in 2018 when I first had the idea of creating a platform for users to find
+                information about all of the mountains in my home country, Scotland, called The Ben Bagger. 
+                The idea stuck with me, and I was intrigued as to how I could make it a reality.
+            </p>
+            <p className="about-grid-info-text">
+                Fast-forward a few years, and I started to put my interest into practice, through introductory courses,
+                before diving into an intensive Bootcamp programme with 4GeeksAcademy, an award-winning coding academy.
+                Here I was able to immerse myself in the world of programming and web-development, eventually producing
+                a full-stack movie-application.
+            </p>
+            <p className="about-grid-info-text">e
+                With all these skills and knowledgd acquired, I have continued my development and learning by producing
+                 my own content, staying up-to-date with changes and advances in the sector and coding on a daily basis. 
+            </p>
+            <p className="about-grid-info-text">
+                 Here are some of the technologies I’ve been working with recently:
+            </p>
+            <ul className="about-grid-info-list">
+                <li className="about-grid-info-list-item">
+                    <TbBrandReact className='item-icon'/>
+                    <p>React</p>
+                    </li>
+                <li className="about-grid-info-list-item">
+                    <TbBrandJavascript className='item-icon'/>
+                    <p>Javascript</p>
+                </li>
+                <li className="about-grid-info-list-item">
+                    <TbBrandNextjs className='item-icon'/>
+                    <p>Next.js</p>
+                </li>
+                <li className="about-grid-info-list-item">
+                    <TbBrandTypescript className='item-icon'/>
+                    <p>Typescript</p>
+                </li>
+                <li className="about-grid-info-list-item">
+                    <TbBrandMongodb className='item-icon'/>
+                    <p>MongoDB</p>
+                </li>
+                <li className="about-grid-info-list-item">
+                    <FaNodeJs className='item-icon'/>
+                    <p>Node.js</p>
+                </li>
+                <li className="about-grid-info-list-item">
+                    <SiFlask className='item-icon'/>
+                    <p>Flask</p>
+                </li>
+                <li className="about-grid-info-list-item">
+                    <TbBrandPython className='item-icon'/>
+                    <p>Python</p>
+                </li>
+                <li className="about-grid-info-list-item">
+                    <TbBrandCss3 className='item-icon'/>
+                    <p>CSS/SCSS</p>
+                </li>
+            </ul>
         </div>
         <div className="about-grid-photo">
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/profile.jpeg" alt="profile" fill style={{objectFit: 'cover', filter: 'grayscale(100)'}} />
           </div>
         </div>
       </div>
