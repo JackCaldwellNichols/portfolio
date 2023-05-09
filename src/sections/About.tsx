@@ -58,7 +58,7 @@ function About() {
                 Here I was able to immerse myself in the world of programming and web-development, eventually producing
                 a full-stack movie-application.
             </p>
-            <p className="about-grid-info-text">e
+            <p className="about-grid-info-text">
                 With all these skills and knowledgd acquired, I have continued my development and learning by producing
                  my own content, staying up-to-date with changes and advances in the sector and coding on a daily basis. 
             </p>
