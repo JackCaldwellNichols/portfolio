@@ -63,6 +63,28 @@ function Projects() {
         externalLink: "https://644aa5a0c8e84203eb2b0dbd--candid-meringue-ef185c.netlify.app/#",
       },
     },
+    {
+      image: "/image4.png",
+      projectName: "Super Hero Centre",
+      projectLink: "https://github.com/JackCaldwellNichols/super-hero-center",
+      projectDescription:
+        "A full stack web application, offering a user the chance to delve into the world of superheroes - 563 to be precise. Built using MERN stack, and offering user interactivity to dynamically update their profile and account, as well as drawing information from externam API's.",
+      projectTech: [
+        "React/Vite",
+        "ReactJS",
+        "MongoDB",
+        "NodeJS",
+        "Javascript",
+        "SCSS",
+        "ExpressJS",
+        "Bcrypt",
+        "REST API's"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/JackCaldwellNichols/super-hero-center",
+        externalLink: "https://herocentre.onrender.com/",
+      },
+    },
   ];
   return (
     <div className="projects" id="experience">
