@@ -85,6 +85,29 @@ function Projects() {
         externalLink: "https://herocentre.onrender.com/",
       },
     },
+    {
+      image: "/image4.png",
+      projectName: "The Book Corner",
+      projectLink: "https://github.com/JackCaldwellNichols/the-book-corner",
+      projectDescription:
+        "A full stack E-commerce site, allowing a user to browse a selection of books and purchase them. A user can also leave book reviews, modify their profile, and search books that the store has on offer.",
+      projectTech: [
+        "React/Vite",
+        "ReactJS",
+        "MongoDB",
+        "NodeJS",
+        "Javascript",
+        "SCSS",
+        "ExpressJS",
+        "Redux",
+        "Firebase",
+        "Stripe"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/JackCaldwellNichols/the-book-corner",
+        externalLink: "https://bookcorner.onrender.com",
+      },
+    },
   ];
   return (
     <div className="projects" id="experience">
