@@ -86,7 +86,7 @@ function Projects() {
       },
     },
     {
-      image: "/image4.png",
+      image: "/image5.png",
       projectName: "The Book Corner",
       projectLink: "https://github.com/JackCaldwellNichols/the-book-corner",
       projectDescription:
