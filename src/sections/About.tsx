@@ -10,6 +10,7 @@ import {
   TbBrandTypescript,
   TbBrandNextjs,
   TbBrandMongodb,
+  TbBrandFirebase,
 } from "react-icons/tb";
 
 import { SiFlask } from "react-icons/si";
@@ -92,10 +93,10 @@ function About() {
             </li>
             <li className="about-grid-info-list-item">
               <SiFlask className="item-icon" />
-              <p>Flask</p>
+              <p>Firebase</p>
             </li>
             <li className="about-grid-info-list-item">
-              <TbBrandPython className="item-icon" />
+              <TbBrandFirebase className="item-icon" />
               <p>Python</p>
             </li>
             <li className="about-grid-info-list-item">
