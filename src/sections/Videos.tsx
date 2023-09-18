@@ -40,19 +40,17 @@ const Videos = () => {
         </div>
         <div className="imgContainerBottom">
           <div className="descBottom">
-            <h2>Films4Geeks</h2>
+            <h2>Recipifier</h2>
             <br />
             <p>
-              Films4Geeks is a fully responsive, full stack movie application
-              which allows a user to register, and create their own profile, as
-              well as explore the latest releases, upcoming releases, search for
-              movies, watch trailers, add their favourites, leave comments, see
-              their preferences, and more...
+              Recipifier is a fully responsive, web application which allows a
+              user to register sign in to their account, and browse a vast
+              amount of recipes, ingredients, and suggestions.
             </p>
             <br />
             <p>
-              Built using React, Javascript, Python, Flask, RestAPI&apos;s,
-              Bootstrap, Font Awesome
+              Built using NextJS, Typescript, Tailwind, AuthJS, The MealDB,
+              RestAPI&apos;s,
             </p>
           </div>
           <div className="right">
@@ -60,7 +58,7 @@ const Videos = () => {
             <div className="screen">
               <video className="phoneVideo" controls>
                 <source
-                  src="https://res.cloudinary.com/dzcz4e9nd/video/upload/v1683196286/Studio_Project_3_cg6zwf.mp4"
+                  src="https://res.cloudinary.com/dzcz4e9nd/video/upload/v1695011361/recipifiervid_wnfryf.mp4"
                   type="video/mp4"
                 />
               </video>
