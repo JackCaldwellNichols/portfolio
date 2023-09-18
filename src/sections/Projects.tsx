@@ -7,11 +7,52 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/recipifier.png",
+      projectName: "Recipifier",
+      projectLink:
+        "https://recipifier-git-main-jackcaldwellnichols.vercel.app/",
+      projectDescription:
+        "A fully responsive web application, consuming data from the The Meal DB, providing a user with access to meal recipes, and the ability to search and filter them. User authentication via AuthJS and Google OAth also incorporated to provide a better UX.",
+      projectTech: [
+        "Typescript",
+        "NextJS",
+        "AuthJS",
+        "Tailwind",
+        "RestAPI",
+        "Google OAuth",
+        "The Meal DB",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/JackCaldwellNichols/recipifier",
+        externalLink:
+          "https://recipifier-git-main-jackcaldwellnichols.vercel.app/",
+      },
+    },
+    {
+      image: "/hd.png",
+      projectName: "Hot Deluge",
+      projectLink: "https://hotdeluge.netlify.app/",
+      projectDescription:
+        "A fully responsive landing page for an altenative, Madrid based rock band. Built using ReactJS, with SCSS, I had to create a small api to consume data to be rendered for each member of the band in the bio section. To provide a better UX I used FramerMotion for smooth transitions and I also incorporated EmailJS to facilitate direct contact with the group.",
+      projectTech: [
+        "React/Vite",
+        "Javascript",
+        "SCSS",
+        "FramerMotion",
+        "SCSS",
+        "Responsive Design",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/JackCaldwellNichols/the-wave-page",
+        externalLink: "https://hotdeluge.netlify.app/",
+      },
+    },
+    {
       image: "/image1.png",
       projectName: "The Solar System in 3D",
       projectLink: "https://netlify.com",
       projectDescription:
-        "This is an educative web application that allows a user to explore our solar system in three dimensions. There are is also information on each planet within the Solar System, and the use has the ability to take a tour and learn a thing or two!",
+        "This is an educative web application built with NextJS and Typescript that allows a user to explore our solar system in three dimensions. There are is also information on each planet within the Solar System, and the use has the ability to take a tour and learn a thing or two!",
       projectTech: [
         "React/Vite",
         "React Three Fiber",
@@ -23,44 +64,6 @@ function Projects() {
       projectExternalLinks: {
         github: "https://github.com/JackCaldwellNichols/3D-solar-system",
         externalLink: "https://sage-otter-e5ba16.netlify.app/",
-      },
-    },
-    {
-      image: "/image3.png",
-      projectName: "Films4Geeks",
-      projectLink: "https://netlify.com",
-      projectDescription:
-        "The final project in my bootcamp programme with the coding academy 4GeeksAcademy, we created, using user-stories to formulate our ideas, a full-stack interactive movie application. The applicaiton allows a user to have a user-profile where they can see/save their favourite movies, as well as search for movies, leave comments, watch trailers, and more...",
-      projectTech: [
-        "React",
-        "Javascript",
-        "Python",
-        "Flask",
-        "RestAPI",
-        "CSS",
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/MireyaCR/Film4Geeks/tree/dev",
-        externalLink: "https://sample-service-name-fa9s.onrender.com/",
-      },
-    },
-    {
-      image: "/image2.png",
-      projectName: "The Wave Box",
-      projectLink: "https://netlify.com",
-      projectDescription:
-        "A fully responsive landing page for a crossfit / training centre based in Madrid, The Wave Box. The page offers a user information on the location, prices, images of the centre, and a contact section for more information.",
-      projectTech: [
-        "React/Vite",
-        "Javascript",
-        "Ant Design",
-        "MaterialUI",
-        "SCSS",
-        "Bootstrap"
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/JackCaldwellNichols/the-wave-page",
-        externalLink: "https://644aa5a0c8e84203eb2b0dbd--candid-meringue-ef185c.netlify.app/#",
       },
     },
     {
@@ -78,7 +81,7 @@ function Projects() {
         "SCSS",
         "ExpressJS",
         "Bcrypt",
-        "REST API's"
+        "REST API's",
       ],
       projectExternalLinks: {
         github: "https://github.com/JackCaldwellNichols/super-hero-center",
@@ -101,7 +104,7 @@ function Projects() {
         "ExpressJS",
         "Redux",
         "Firebase",
-        "Stripe"
+        "Stripe",
       ],
       projectExternalLinks: {
         github: "https://github.com/JackCaldwellNichols/the-book-corner",
@@ -148,7 +151,12 @@ function Projects() {
                 }}
               >
                 <div className="project-image">
-                  <div className="project-image-overlay"></div>
+                  <Link
+                    href={projectExternalLinks.externalLink}
+                    target="_blank"
+                  >
+                    <div className="project-image-overlay"></div>
+                  </Link>
                   <div className="project-image-container">
                     <Image src={image} fill alt={projectName} quality={100} />
                   </div>

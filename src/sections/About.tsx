@@ -13,7 +13,7 @@ import {
   TbBrandFirebase,
 } from "react-icons/tb";
 
-import { SiFlask } from "react-icons/si";
+import { SiFlask, SiTailwindcss } from "react-icons/si";
 
 import { FaNodeJs } from "react-icons/fa";
 
@@ -92,16 +92,24 @@ function About() {
               <p>Node.js</p>
             </li>
             <li className="about-grid-info-list-item">
-              <SiFlask className="item-icon" />
+              <TbBrandFirebase className="item-icon" />
               <p>Firebase</p>
             </li>
             <li className="about-grid-info-list-item">
-              <TbBrandFirebase className="item-icon" />
+              <TbBrandPython className="item-icon" />
               <p>Python</p>
             </li>
             <li className="about-grid-info-list-item">
               <TbBrandCss3 className="item-icon" />
               <p>CSS/SCSS</p>
+            </li>
+            <li className="about-grid-info-list-item">
+              <TbBrandTypescript className="item-icon" />
+              <p>Typescrript</p>
+            </li>
+            <li className="about-grid-info-list-item">
+              <SiTailwindcss className="item-icon" />
+              <p>Tailwind</p>
             </li>
           </ul>
         </div>
