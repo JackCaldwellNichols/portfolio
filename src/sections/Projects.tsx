@@ -48,9 +48,9 @@ function Projects() {
       },
     },
     {
-      image: "/image1.png",
+      image: "/ss.png",
       projectName: "The Solar System in 3D",
-      projectLink: "https://netlify.com",
+      projectLink: "https://solar-system-in-three-dimensions.netlify.app/",
       projectDescription:
         "This is an educative web application built with NextJS and Typescript that allows a user to explore our solar system in three dimensions. There are is also information on each planet within the Solar System, and the use has the ability to take a tour and learn a thing or two!",
       projectTech: [
@@ -63,7 +63,7 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "https://github.com/JackCaldwellNichols/3D-solar-system",
-        externalLink: "https://sage-otter-e5ba16.netlify.app/",
+        externalLink: "https://solar-system-in-three-dimensions.netlify.app/",
       },
     },
     {
