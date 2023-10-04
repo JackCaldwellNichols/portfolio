@@ -67,11 +67,11 @@ function Projects() {
       },
     },
     {
-      image: "/image4.png",
-      projectName: "Super Hero Centre",
-      projectLink: "https://github.com/JackCaldwellNichols/super-hero-center",
+      image: "/movies.png",
+      projectName: "React Movies",
+      projectLink: "https://github.com/JackCaldwellNichols/react-movies",
       projectDescription:
-        "A full stack web application, offering a user the chance to delve into the world of superheroes - 563 to be precise. Built using MERN stack, and offering user interactivity to dynamically update their profile and account, as well as drawing information from external API's.",
+        "A full stack web application built using the MERN stack, and incorporating the TMDB for API calls. Based on the Netflix UI for a smooth and interactive UX.",
       projectTech: [
         "React/Vite",
         "ReactJS",
@@ -82,10 +82,11 @@ function Projects() {
         "ExpressJS",
         "Bcrypt",
         "REST API's",
+        "TMDB",
       ],
       projectExternalLinks: {
-        github: "https://github.com/JackCaldwellNichols/super-hero-center",
-        externalLink: "https://herocentre.onrender.com/",
+        github: "https://github.com/JackCaldwellNichols/react-movies",
+        externalLink: "https://reactmovies-movifiy.netlify.app",
       },
     },
     {
