@@ -38,6 +38,7 @@ const Videos = () => {
             </p>
           </div>
         </div>
+
         <div className="imgContainerBottom">
           <div className="descBottom">
             <h2>Recipifier</h2>
