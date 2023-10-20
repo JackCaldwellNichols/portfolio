@@ -58,7 +58,7 @@ function About() {
             programming and web-development.
           </p>
           <p className="about-grid-info-text">
-            I have since been working with companies and NGO's to design and
+            I have since been working with companies and NGOs to design and
             develop applications and web pages. I have expanded my skillset,
             through continuously building and developing applications for mobile
             and web on a daily basis, using a wide variety of programming
