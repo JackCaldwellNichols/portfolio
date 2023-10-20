@@ -90,26 +90,28 @@ function Projects() {
       },
     },
     {
-      image: "/image5.png",
-      projectName: "The Book Corner",
-      projectLink: "https://github.com/JackCaldwellNichols/the-book-corner",
+      image: "/restcountries.png",
+      projectName: "React Rest Countries",
+      projectLink:
+        "https://github.com/JackCaldwellNichols/react-rest-countries/tree/main",
       projectDescription:
-        "A full stack E-commerce site, allowing a user to browse a selection of books and purchase them. A user can also leave book reviews, modify their profile, and search books that the store has on offer.",
+        "A full stack, responsive application built with Python/Flask for a robust backend, connected to a Front End UI built with React.js. The front-end is designed on a popular travel web page, and the applciation offers information on all countries of the world. A beutifully responsive application, using React Bootstrap for style, as well as incorporating API's such as Unsplash for images, and Rest Countries for content. On top of thhat, React three/fiber and Drei were used for some 3D imagery.",
       projectTech: [
         "React/Vite",
-        "ReactJS",
-        "MongoDB",
-        "NodeJS",
+        "Python",
+        "Flask",
         "Javascript",
-        "SCSS",
-        "ExpressJS",
-        "Redux",
-        "Firebase",
-        "Stripe",
+        "React Bootstrap",
+        "JSON Webtoken",
+        "State Management",
+        "SQL Alchemy",
+        "Material UI",
+        "React three",
       ],
       projectExternalLinks: {
         github: "https://github.com/JackCaldwellNichols/the-book-corner",
-        externalLink: "https://bookcorner.onrender.com",
+        externalLink:
+          "https://6532bc5b635761128c5f0ba7--shimmering-puffpuff-c655d4.netlify.app/",
       },
     },
   ];

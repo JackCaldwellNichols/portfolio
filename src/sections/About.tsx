@@ -10,6 +10,7 @@ import {
   TbBrandTypescript,
   TbBrandNextjs,
   TbBrandMongodb,
+  TbBrandBootstrap,
   TbBrandFirebase,
 } from "react-icons/tb";
 
@@ -52,19 +53,20 @@ function About() {
           <p className="about-grid-info-text">
             Fast-forward a few years, and I started to put my interest into
             practice, through introductory courses, before diving into an
-            intensive Bootcamp programme with 4GeeksAcademy, an award-winning
-            coding academy. Here I was able to immerse myself in the world of
-            programming and web-development, eventually producing a full-stack
-            movie-application.
+            intensive programme with 4GeeksAcademy, an award-winning coding
+            academy. Here I was able to immerse myself in the world of
+            programming and web-development.
           </p>
           <p className="about-grid-info-text">
-            With all these skills and knowledge acquired, I have continued my
-            development and learning by producing my own content, staying
-            up-to-date with changes and advances in the sector and coding on a
-            daily basis.
+            I have since been working with companies and NGO's to design and
+            develop applications and web pages. I have expanded my skillset,
+            through continuously building and developing applications for mobile
+            and web on a daily basis, using a wide variety of programming
+            languages and technologies.
           </p>
           <p className="about-grid-info-text">
-            Here are some of the technologies I’ve been working with recently:
+            Below are some I am comfotable with and have been working with
+            recently:
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">
@@ -100,6 +102,10 @@ function About() {
               <p>Python</p>
             </li>
             <li className="about-grid-info-list-item">
+              <SiFlask className="item-icon" />
+              <p>Flask</p>
+            </li>
+            <li className="about-grid-info-list-item">
               <TbBrandCss3 className="item-icon" />
               <p>CSS/SCSS</p>
             </li>
@@ -110,6 +116,10 @@ function About() {
             <li className="about-grid-info-list-item">
               <SiTailwindcss className="item-icon" />
               <p>Tailwind</p>
+            </li>
+            <li className="about-grid-info-list-item">
+              <TbBrandBootstrap className="item-icon" />
+              <p>Bootstrap</p>
             </li>
           </ul>
         </div>
