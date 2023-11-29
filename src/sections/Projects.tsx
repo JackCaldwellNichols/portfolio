@@ -94,28 +94,23 @@ function Projects() {
       },
     },
     {
-      image: "/restcountries.png",
-      projectName: "React Rest Countries",
+      image: "/react-clothes.png",
+      projectName: "React Clothes",
       projectLink:
         "https://github.com/JackCaldwellNichols/react-rest-countries/tree/main",
       projectDescription:
-        "A full stack, responsive application built with Python/Flask for a robust backend, connected to a Front End UI built with React.js. The front-end is designed on a popular travel web page, and the applciation offers information on all countries of the world. A beutifully responsive application, using React Bootstrap for style, as well as incorporating API's such as Unsplash for images, and Rest Countries for content. On top of thhat, React three/fiber and Drei were used for some 3D imagery.",
+        "A full stack e-commerce web application, built using Reactjs, Firebase for authentication and storage, and sign-in with Google pop-up, along with style-components, stripe for payment, and hooks for state management.",
       projectTech: [
         "React/Vite",
-        "Python",
-        "Flask",
+        "Firebase",
         "Javascript",
-        "React Bootstrap",
-        "JSON Webtoken",
-        "State Management",
-        "SQL Alchemy",
-        "Material UI",
-        "React three",
+        "Stripe",
+        "Styled-Components",
+        "Netlify-CLI",
       ],
       projectExternalLinks: {
-        github: "https://github.com/JackCaldwellNichols/the-book-corner",
-        externalLink:
-          "https://6532bc5b635761128c5f0ba7--shimmering-puffpuff-c655d4.netlify.app/",
+        github: "https://github.com/JackCaldwellNichols/react-clothes",
+        externalLink: "https://resilient-hotteok-6e5c7c.netlify.app/",
       },
     },
   ];
