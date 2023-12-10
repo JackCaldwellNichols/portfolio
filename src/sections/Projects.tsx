@@ -94,23 +94,23 @@ function Projects() {
       },
     },
     {
-      image: "/react-clothes.png",
-      projectName: "React Clothes",
-      projectLink:
-        "https://github.com/JackCaldwellNichols/react-rest-countries/tree/main",
+      image: "/instagram.png",
+      projectName: "Instagram Clone",
+      projectLink: "https://github.com/JackCaldwellNichols/intagram-clone",
       projectDescription:
-        "A full stack e-commerce web application, built using Reactjs, Firebase for authentication and storage, and sign-in with Google pop-up, along with style-components, stripe for payment, and hooks for state management.",
+        "A full stack clone of Instagram, allowing a user to sign up and sign in through Firebase, upload images, create posts, like posts and follow other users, amongst other features. Built with React.js and Chakra-UI for a smooth and polished UI, and custom hooks for scalability, and Zustand for state management.",
       projectTech: [
         "React/Vite",
         "Firebase",
         "Javascript",
-        "Stripe",
-        "Styled-Components",
-        "Netlify-CLI",
+        "Custom Hooks",
+        "FireStore",
+        "Chakra-UI",
+        "Zustand",
       ],
       projectExternalLinks: {
-        github: "https://github.com/JackCaldwellNichols/react-clothes",
-        externalLink: "https://resilient-hotteok-6e5c7c.netlify.app/",
+        github: "https://github.com/JackCaldwellNichols/intagram-clone",
+        externalLink: "https://another-social.vercel.app/auth",
       },
     },
   ];

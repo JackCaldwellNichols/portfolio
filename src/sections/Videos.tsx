@@ -41,16 +41,18 @@ const Videos = () => {
 
         <div className="imgContainerBottom">
           <div className="descBottom">
-            <h2>Recipifier</h2>
+            <h2>InstaReact</h2>
             <br />
             <p>
-              Recipifier is a fully responsive, web application which allows a
-              user to register sign in to their account, and browse a vast
-              amount of recipes, ingredients, and suggestions.
+              InstaReact is an alternative version of Instagram - with full
+              functionalities, including signing up and in, and the option to
+              create an account directly with Google. A user can then start
+              following their friends, sharing photos, updating their profiles
+              and commenting on the posts of others.
             </p>
             <br />
             <p>
-              Built using NextJS, Typescript, Tailwind, AuthJS, The MealDB,
+              Built using ReactJS, Chakra-UI, Firebase, Zustand, JavaScript,
               RestAPI&apos;s,
             </p>
           </div>
@@ -59,7 +61,7 @@ const Videos = () => {
             <div className="screen">
               <video className="phoneVideo" controls>
                 <source
-                  src="https://res.cloudinary.com/dzcz4e9nd/video/upload/v1695011361/recipifiervid_wnfryf.mp4"
+                  src="https://res.cloudinary.com/dzcz4e9nd/video/upload/v1702236964/2023__20_23_54__Copy_1_wwxjoc.mp4"
                   type="video/mp4"
                 />
               </video>
